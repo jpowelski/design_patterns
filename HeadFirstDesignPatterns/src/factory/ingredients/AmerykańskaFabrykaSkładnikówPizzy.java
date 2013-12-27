@@ -15,6 +15,12 @@ import factory.ingredients.vegetables.CzarneOliwki;
 import factory.ingredients.vegetables.Szpinak;
 import factory.ingredients.vegetables.Warzywa;
 
+/**
+ * Fabryka rzeczywista
+ * 
+ * @author galica
+ *
+ */
 public class AmerykañskaFabrykaSk³adnikówPizzy implements
 		FabrykaSk³adnikówPizzy {
 

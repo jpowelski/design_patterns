@@ -16,6 +16,12 @@ import factory.ingredients.vegetables.Czosnek;
 import factory.ingredients.vegetables.Pieczarki;
 import factory.ingredients.vegetables.Warzywa;
 
+/**
+ * Fabryka rzeczywista
+ * 
+ * @author galica
+ *
+ */
 public class W³oskaFabrykaSk³adnikówPizzy implements FabrykaSk³adnikówPizzy {
 
 	@Override

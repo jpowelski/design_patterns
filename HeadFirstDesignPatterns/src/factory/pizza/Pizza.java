@@ -1,5 +1,6 @@
 package factory.pizza;
 
+import factory.ingredients.FabrykaSk³adnikówPizzy;
 import factory.ingredients.cheese.Ser;
 import factory.ingredients.clams.Ma³¿e;
 import factory.ingredients.paste.Ciasto;
@@ -9,6 +10,8 @@ import factory.ingredients.vegetables.Warzywa;
 
 public abstract class Pizza {
 
+	protected FabrykaSk³adnikówPizzy fabrykaSk³adników;
+	
 	protected String nazwa;
 	protected Ciasto ciasto;
 	protected Sos sos;

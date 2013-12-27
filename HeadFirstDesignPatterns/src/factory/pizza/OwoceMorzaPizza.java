@@ -4,8 +4,6 @@ import factory.ingredients.FabrykaSk³adnikówPizzy;
 
 public class OwoceMorzaPizza extends Pizza {
 
-	private FabrykaSk³adnikówPizzy fabrykaSk³adników;
-
 	public OwoceMorzaPizza(FabrykaSk³adnikówPizzy fabrykaSk³adników) {
 		this.fabrykaSk³adników = fabrykaSk³adników;
 	}

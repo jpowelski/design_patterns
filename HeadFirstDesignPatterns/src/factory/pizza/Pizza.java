@@ -1,24 +1,24 @@
 package factory.pizza;
 
-import java.util.ArrayList;
+import factory.ingredients.cheese.Ser;
+import factory.ingredients.clams.Ma³¿e;
+import factory.ingredients.paste.Ciasto;
+import factory.ingredients.pepperoni.Pepperoni;
+import factory.ingredients.sauce.Sos;
+import factory.ingredients.vegetables.Warzywa;
 
 public abstract class Pizza {
 
 	protected String nazwa;
-	protected String ciasto;
-	protected String sos;
-	protected ArrayList<String> dodatki = new ArrayList<>();
+	protected Ciasto ciasto;
+	protected Sos sos;
+	protected Warzywa warzywa[];
+	protected Ser ser;
+	protected Pepperoni pepperoni;
+	protected Ma³¿e ma³¿e;
 	
-	public void przygotowanie() {
-		System.out.println("Przygotowywanie: " + nazwa);
-		System.out.println("Wyrabianie ciasta...");
-		System.out.println("Dodawanie sosu...");
-		System.out.println("Dodatki: ");
-		for(int i=0;i<dodatki.size();i++){
-			System.out.println("   " + dodatki.get(i));
-		}
-	}
-	
+	public abstract void przygotowanie();
+
 	public void pieczenie() {
 		System.out.println("Pieczenie: 25 minut w temp. 250 stopni C");
 	}
@@ -31,7 +31,15 @@ public abstract class Pizza {
 		System.out.println("Pakowanie pizzy w oficjalne pude³ko");
 	}
 	
+	public void ustawNazwa(String nazwa){
+		this.nazwa = nazwa;
+	}
+	
 	public String pobierzNazwa() {
 		return nazwa;
+	}
+	
+	public String toString(){
+		return "";
 	}
 }

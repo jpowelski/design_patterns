@@ -1,15 +1,26 @@
 package factory.pizzeria;
 
-import factory.pizza.AmerykañskaSerowaPizza;
+import factory.ingredients.FabrykaSk³adnikówPizzy;
+import factory.ingredients.W³oskaFabrykaSk³adnikówPizzy;
+import factory.pizza.OwoceMorzaPizza;
 import factory.pizza.Pizza;
+import factory.pizza.SerowaPizza;
 
 public class AmerykañskaPizzeria extends Pizzeria {
 
 	@Override
 	protected Pizza utwórzPizza(String type) {
-		if ("serowa".equals(type)){
-			return new AmerykañskaSerowaPizza();
-		} else return null;
+		Pizza pizza = null;
+		FabrykaSk³adnikówPizzy fabrykaSk³adników = new W³oskaFabrykaSk³adnikówPizzy();
+
+		if ("serowa".equals(type)) {
+			pizza = new SerowaPizza(fabrykaSk³adników);
+			pizza.ustawNazwa("Amerykañska Pizza Serowa");
+		} else if ("owoce morza".equals(type)) {
+			pizza = new OwoceMorzaPizza(fabrykaSk³adników);
+			pizza.ustawNazwa("Amerykañska Pizza Owoce Morza");
+		}
+		return pizza;
 	}
 
 }

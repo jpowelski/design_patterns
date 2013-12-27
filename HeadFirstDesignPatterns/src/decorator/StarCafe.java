@@ -3,19 +3,19 @@ package decorator;
 public class StarCafe {
 
 	public static void main(String[] args) {
-		Napój napój = new Espresso();
-		System.out.println(napój.pobierzOpis() + " " + napój.koszt() + " z³");
+		NapÃ³j napÃ³j = new Espresso();
+		System.out.println(napÃ³j.pobierzOpis() + " " + napÃ³j.koszt() + " zÅ‚");
 		
-		Napój napój2 = new MocnaPalona();
-		napój2 = new Czekolada(napój2);
-		napój2 = new Czekolada(napój2);
-		napój2 = new BitaŒmietana(napój2);
-		System.out.println(napój2.pobierzOpis() + " " + napój2.koszt() + " z³");
+		NapÃ³j napÃ³j2 = new MocnaPalona();
+		napÃ³j2 = new Czekolada(napÃ³j2);
+		napÃ³j2 = new Czekolada(napÃ³j2);
+		napÃ³j2 = new BitaÅšmietana(napÃ³j2);
+		System.out.println(napÃ³j2.pobierzOpis() + " " + napÃ³j2.koszt() + " zÅ‚");
 		
-		Napój napój3 = new StarCafeSpecial();
-		napój3 = new MleczkoSojowe(napój3);
-		napój3 = new Czekolada(napój3);
-		napój3 = new BitaŒmietana(napój3);
-		System.out.println(napój3.pobierzOpis() + " " + napój3.koszt() + " z³");
+		NapÃ³j napÃ³j3 = new StarCafeSpecial();
+		napÃ³j3 = new MleczkoSojowe(napÃ³j3);
+		napÃ³j3 = new Czekolada(napÃ³j3);
+		napÃ³j3 = new BitaÅšmietana(napÃ³j3);
+		System.out.println(napÃ³j3.pobierzOpis() + " " + napÃ³j3.koszt() + " zÅ‚");
 	}
 }

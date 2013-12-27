@@ -1,6 +1,6 @@
 package decorator;
 
-public class Bezkofeinowa extends Napój {
+public class Bezkofeinowa extends NapÃ³j {
 
 	public Bezkofeinowa(){
 		opis = "Kawa bezkofeinowa";

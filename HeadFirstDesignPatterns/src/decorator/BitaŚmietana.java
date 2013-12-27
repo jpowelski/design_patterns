@@ -1,20 +1,20 @@
 package decorator;
 
-public class Bita宮ietana extends Sk砤dnikiDekorator {
-	private Nap骿 nap骿;
+public class Bita艢mietana extends Sk艂adnikiDekorator {
+	private Nap贸j nap贸j;
 
-	public Bita宮ietana(Nap骿 nap骿) {
-		this.nap骿 = nap骿;
+	public Bita艢mietana(Nap贸j nap贸j) {
+		this.nap贸j = nap贸j;
 	}
 
 	@Override
 	public String pobierzOpis() {
-		return nap骿.pobierzOpis() + ", Czekolada";
+		return nap贸j.pobierzOpis() + ", Czekolada";
 	}
 
 	@Override
 	public double koszt() {
-		return nap骿.koszt() + 0.10;
+		return nap贸j.koszt() + 0.10;
 	}
 
 }

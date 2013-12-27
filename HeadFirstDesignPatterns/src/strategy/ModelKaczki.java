@@ -8,7 +8,7 @@ public class ModelKaczki extends Kaczka {
 	}
 	
 	@Override
-	public void wyúwietl() {
+	public void wy≈õwietl() {
 System.out.println("Jestem modelem kaczki");
 	}
 

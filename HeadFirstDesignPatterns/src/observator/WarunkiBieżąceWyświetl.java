@@ -1,27 +1,27 @@
 package observator;
 
-public class WarunkiBie¿¹ceWyœwietl implements Obserwator, WyœwietlElement {
+public class WarunkiBieÅ¼Ä…ceWyÅ›wietl implements Obserwator, WyÅ›wietlElement {
 
 	private float temperatura;
-	private float wilgotnoœæ;
+	private float wilgotnoÅ›Ä‡;
 	private Podmiot danePogodowe;
 
-	public WarunkiBie¿¹ceWyœwietl(Podmiot danePogodowe) {
+	public WarunkiBieÅ¼Ä…ceWyÅ›wietl(Podmiot danePogodowe) {
 		this.danePogodowe = danePogodowe;
 		this.danePogodowe.zarejestrujObserwatora(this);
 	}
 
 	@Override
-	public void wyœwietl() {
-		System.out.println("warunki bie¿¹ce: " + temperatura
-				+ " stopni C oraz " + wilgotnoœæ + "% wilgotnoœæ");
+	public void wyÅ›wietl() {
+		System.out.println("warunki BieÅ¼Ä…ce: " + temperatura
+				+ " stopni C oraz " + wilgotnoÅ›Ä‡ + "% wilgotnoÅ›Ä‡");
 	}
 
 	@Override
-	public void aktualizacja(float temp, float wilgotnoœæ, float ciœnienie) {
+	public void aktualizacja(float temp, float wilgotnoÅ›Ä‡, float ciÅ›nienie) {
 		this.temperatura = temp;
-		this.wilgotnoœæ = wilgotnoœæ;
-		wyœwietl();
+		this.wilgotnoÅ›Ä‡ = wilgotnoÅ›Ä‡;
+		wyÅ›wietl();
 	}
 
 }

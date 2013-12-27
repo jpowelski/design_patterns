@@ -1,5 +1,5 @@
 package factory.ingredients.clams;
 
-public class åwieøeMa≥øe extends Ma≥øe {
+public class ≈öwie≈ºeMa≈Ç≈ºe extends Ma≈Ç≈ºe {
 
 }

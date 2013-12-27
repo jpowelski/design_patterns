@@ -5,18 +5,18 @@ public abstract class Kaczka {
 	ILatanie latanie;
 	IKwakanie kwakanie;
 	
-	public abstract void wyœwietl();
+	public abstract void wyÅ›wietl();
 	
 	public void wykonajLot(){
-		latanie.leæ();
+		latanie.leÄ‡();
 	}
 	
 	public void wykonajKwacz(){
 		kwakanie.kwacz();
 	}
 	
-	public void p³ywaj(){
-		System.out.println("Wszystkie kaczki p³ywaj¹, nawet te sztuczne!");
+	public void pÅ‚ywaj(){
+		System.out.println("Wszystkie kaczki pÅ‚ywajÄ…, nawet te sztuczne!");
 	}
 
 	public void setLatanie(ILatanie latanie) {

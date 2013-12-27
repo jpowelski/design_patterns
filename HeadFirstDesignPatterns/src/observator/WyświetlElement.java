@@ -1,5 +1,5 @@
 package observator;
 
-public interface WyúwietlElement {
-	public void wyúwietl();
+public interface Wy≈õwietlElement {
+	public void wy≈õwietl();
 }

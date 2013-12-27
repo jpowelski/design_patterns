@@ -1,20 +1,25 @@
 package command;
 
+import command.device.DrzwiGara≈ºowe;
+import command.device.≈öwiat≈Ço;
+import command.devicecommand.PolecenieOtw√≥rzDrzwiGara≈ºowe;
+import command.devicecommand.PolecenieW≈ÇƒÖcz≈öwiat≈Ço;
+
 public class MiniPilotTest {
 	public static void main(String[] args) {
 		MiniPilot pilot = new MiniPilot();
 
-		åwiat≥o úwiat≥o = new åwiat≥o();
-		PolecenieW≥πczåwiat≥o w≥πczåwiat≥o = new PolecenieW≥πczåwiat≥o(úwiat≥o);
+		≈öwiat≈Ço ≈õwiat≈Ço = new ≈öwiat≈Ço();
+		PolecenieW≈ÇƒÖcz≈öwiat≈Ço w≈ÇƒÖcz≈öwiat≈Ço = new PolecenieW≈ÇƒÖcz≈öwiat≈Ço(≈õwiat≈Ço);
 
-		DrzwiGaraøowe drzwiGaraøowe = new DrzwiGaraøowe();
-		PolecenieOtwÛrzDrzwiGaraøowe otwÛrzDrzwiGaraøowe = new PolecenieOtwÛrzDrzwiGaraøowe(
-				drzwiGaraøowe);
+		DrzwiGara≈ºowe DrzwiGara≈ºowe = new DrzwiGara≈ºowe();
+		PolecenieOtw√≥rzDrzwiGara≈ºowe otw√≥rzDrzwiGara≈ºowe = new PolecenieOtw√≥rzDrzwiGara≈ºowe(
+				DrzwiGara≈ºowe);
 
-		pilot.ustawPolecenie(w≥πczåwiat≥o);
-		pilot.przyciskZosta≥NaciúniÍty();
+		pilot.ustawPolecenie(w≈ÇƒÖcz≈öwiat≈Ço);
+		pilot.przyciskZosta≈ÇNaci≈õniƒôty();
 
-		pilot.ustawPolecenie(otwÛrzDrzwiGaraøowe);
-		pilot.przyciskZosta≥NaciúniÍty();
+		pilot.ustawPolecenie(otw√≥rzDrzwiGara≈ºowe);
+		pilot.przyciskZosta≈ÇNaci≈õniƒôty();
 	}
 }

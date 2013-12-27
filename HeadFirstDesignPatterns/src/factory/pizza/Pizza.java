@@ -1,8 +1,8 @@
 package factory.pizza;
 
-import factory.ingredients.FabrykaSk砤dnik體Pizzy;
+import factory.ingredients.FabrykaSk艂adnik贸wPizzy;
 import factory.ingredients.cheese.Ser;
-import factory.ingredients.clams.Ma晨e;
+import factory.ingredients.clams.Ma艂偶e;
 import factory.ingredients.paste.Ciasto;
 import factory.ingredients.pepperoni.Pepperoni;
 import factory.ingredients.sauce.Sos;
@@ -10,7 +10,7 @@ import factory.ingredients.vegetables.Warzywa;
 
 public abstract class Pizza {
 
-	protected FabrykaSk砤dnik體Pizzy fabrykaSk砤dnik體;
+	protected FabrykaSk艂adnik贸wPizzy fabrykaSk艂adnik贸w;
 	
 	protected String nazwa;
 	protected Ciasto ciasto;
@@ -18,7 +18,7 @@ public abstract class Pizza {
 	protected Warzywa warzywa[];
 	protected Ser ser;
 	protected Pepperoni pepperoni;
-	protected Ma晨e ma晨e;
+	protected Ma艂偶e Ma艂偶e;
 	
 	public abstract void przygotowanie();
 
@@ -27,11 +27,11 @@ public abstract class Pizza {
 	}
 	
 	public void krojenie() {
-		System.out.println("Krojenie pizzy na 8 kawa砶體");
+		System.out.println("Krojenie pizzy na 8 kawa艂k贸w");
 	}
 	
 	public void pakowanie() {
-		System.out.println("Pakowanie pizzy w oficjalne pude砶o");
+		System.out.println("Pakowanie pizzy w oficjalne pude艂ko");
 	}
 	
 	public void ustawNazwa(String nazwa){

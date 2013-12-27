@@ -2,15 +2,15 @@ package factory.ingredients;
 
 import factory.ingredients.cheese.Ser;
 import factory.ingredients.cheese.SerMozzarella;
-import factory.ingredients.clams.Ma³¿e;
-import factory.ingredients.clams.Mro¿oneMa³¿e;
+import factory.ingredients.clams.MaÅ‚Å¼e;
+import factory.ingredients.clams.MroÅ¼oneMaÅ‚Å¼e;
 import factory.ingredients.paste.Ciasto;
 import factory.ingredients.paste.GrubeChrupkieCiasto;
 import factory.ingredients.pepperoni.Pepperoni;
 import factory.ingredients.pepperoni.PlastryPepperoni;
 import factory.ingredients.sauce.Sos;
 import factory.ingredients.sauce.SosPomidorowy;
-import factory.ingredients.vegetables.Bak³a¿an;
+import factory.ingredients.vegetables.BakÅ‚aÅ¼an;
 import factory.ingredients.vegetables.CzarneOliwki;
 import factory.ingredients.vegetables.Szpinak;
 import factory.ingredients.vegetables.Warzywa;
@@ -21,39 +21,39 @@ import factory.ingredients.vegetables.Warzywa;
  * @author galica
  *
  */
-public class AmerykañskaFabrykaSk³adnikówPizzy implements
-		FabrykaSk³adnikówPizzy {
+public class AmerykaÅ„skaFabrykaSkÅ‚adnikÃ³wPizzy implements
+		FabrykaSkÅ‚adnikÃ³wPizzy {
 
 	@Override
-	public Ciasto utwórzCiasto() {
+	public Ciasto utwÃ³rzCiasto() {
 		return new GrubeChrupkieCiasto();
 	}
 
 	@Override
-	public Sos utwórzSos() {
+	public Sos utwÃ³rzSos() {
 		return new SosPomidorowy();
 	}
 
 	@Override
-	public Ser utwórzSer() {
+	public Ser utwÃ³rzSer() {
 		return new SerMozzarella();
 	}
 
 	@Override
-	public Warzywa[] utwórzWarzywa() {
-		Warzywa[] warzywa = { new Bak³a¿an(), new Szpinak(), new CzarneOliwki() };
+	public Warzywa[] utwÃ³rzWarzywa() {
+		Warzywa[] warzywa = { new BakÅ‚aÅ¼an(), new Szpinak(), new CzarneOliwki() };
 
 		return warzywa;
 	}
 
 	@Override
-	public Pepperoni utwórzPepperoni() {
+	public Pepperoni utwÃ³rzPepperoni() {
 		return new PlastryPepperoni();
 	}
 
 	@Override
-	public Ma³¿e utwórzMa³¿e() {
-		return new Mro¿oneMa³¿e();
+	public MaÅ‚Å¼e utwÃ³rzMaÅ‚Å¼e() {
+		return new MroÅ¼oneMaÅ‚Å¼e();
 	}
 
 }

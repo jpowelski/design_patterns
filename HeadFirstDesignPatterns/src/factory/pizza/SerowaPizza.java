@@ -1,19 +1,19 @@
 package factory.pizza;
 
-import factory.ingredients.FabrykaSk砤dnik體Pizzy;
+import factory.ingredients.FabrykaSk艂adnik贸wPizzy;
 
 public class SerowaPizza extends Pizza {
 
-	public SerowaPizza(FabrykaSk砤dnik體Pizzy fabrykaSk砤dnik體) {
-		this.fabrykaSk砤dnik體 = fabrykaSk砤dnik體;
+	public SerowaPizza(FabrykaSk艂adnik贸wPizzy fabrykaSk艂adnik贸w) {
+		this.fabrykaSk艂adnik贸w = fabrykaSk艂adnik贸w;
 	}
 
 	@Override
 	public void przygotowanie() {
 		System.out.println("Przygotowanie: " + nazwa);
-		ciasto = fabrykaSk砤dnik體.utw髍zCiasto();
-		sos = fabrykaSk砤dnik體.utw髍zSos();
-		ser = fabrykaSk砤dnik體.utw髍zSer();
+		ciasto = fabrykaSk艂adnik贸w.utw贸rzCiasto();
+		sos = fabrykaSk艂adnik贸w.utw贸rzSos();
+		ser = fabrykaSk艂adnik贸w.utw贸rzSer();
 	}
 
 }

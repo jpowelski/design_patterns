@@ -2,6 +2,6 @@ package strategy;
 
 public interface ILatanie {
 
-	public void leæ();
+	public void leÄ‡();
 
 }

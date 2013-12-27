@@ -10,7 +10,7 @@ public class MiniPilot {
 		this.slot = polecenie;
 	}
 
-	public void przyciskZosta³Naciœniêty() {
+	public void przyciskZostaÅ‚NaciÅ›niÄ™ty() {
 		this.slot.wykonaj();
 	}
 }

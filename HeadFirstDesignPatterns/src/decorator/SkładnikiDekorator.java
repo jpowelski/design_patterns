@@ -1,6 +1,6 @@
 package decorator;
 
-public abstract class Sk≥adnikiDekorator extends NapÛj {
+public abstract class Sk≈ÇadnikiDekorator extends Nap√≥j {
 
 	public abstract String pobierzOpis();
 }

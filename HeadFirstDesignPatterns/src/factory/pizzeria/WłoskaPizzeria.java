@@ -1,24 +1,24 @@
 package factory.pizzeria;
 
-import factory.ingredients.FabrykaSk砤dnik體Pizzy;
-import factory.ingredients.W硂skaFabrykaSk砤dnik體Pizzy;
+import factory.ingredients.FabrykaSk艂adnik贸wPizzy;
+import factory.ingredients.W艂oskaFabrykaSk艂adnik贸wPizzy;
 import factory.pizza.OwoceMorzaPizza;
 import factory.pizza.Pizza;
 import factory.pizza.SerowaPizza;
 
-public class W硂skaPizzeria extends Pizzeria {
+public class W艂oskaPizzeria extends Pizzeria {
 
 	@Override
-	protected Pizza utw髍zPizza(String type) {
+	protected Pizza utw贸rzPizza(String type) {
 		Pizza pizza = null;
-		FabrykaSk砤dnik體Pizzy fabrykaSk砤dnik體 = new W硂skaFabrykaSk砤dnik體Pizzy();
+		FabrykaSk艂adnik贸wPizzy fabrykaSk艂adnik贸w = new W艂oskaFabrykaSk艂adnik贸wPizzy();
 
 		if ("serowa".equals(type)) {
-			pizza = new SerowaPizza(fabrykaSk砤dnik體);
-			pizza.ustawNazwa("W硂ska Pizza Serowa");
+			pizza = new SerowaPizza(fabrykaSk艂adnik贸w);
+			pizza.ustawNazwa("w艂oska Pizza Serowa");
 		} else if ("owoce morza".equals(type)) {
-			pizza = new OwoceMorzaPizza(fabrykaSk砤dnik體);
-			pizza.ustawNazwa("W硂ska Pizza Owoce Morza");
+			pizza = new OwoceMorzaPizza(fabrykaSk艂adnik贸w);
+			pizza.ustawNazwa("w艂oska Pizza Owoce Morza");
 		}
 		return pizza;
 	}

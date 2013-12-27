@@ -1,21 +1,21 @@
 package factory;
 
 import factory.pizza.Pizza;
-import factory.pizzeria.AmerykaÒskaPizzeria;
+import factory.pizzeria.Ameryka≈ÑskaPizzeria;
 import factory.pizzeria.Pizzeria;
-import factory.pizzeria.W≥oskaPizzeria;
+import factory.pizzeria.W≈ÇoskaPizzeria;
 
 public class PizzaTest {
 
 	public static void main(String[] args) {
-		Pizzeria w≥oska = new W≥oskaPizzeria();
-		Pizzeria amerykaÒska = new AmerykaÒskaPizzeria();
+		Pizzeria w≈Çoska = new W≈ÇoskaPizzeria();
+		Pizzeria ameryka≈Ñska = new Ameryka≈ÑskaPizzeria();
 		
-		Pizza pizza = w≥oska.zamÛwPizza("serowa");
-		System.out.println("Eryk zamÛwi≥: " + pizza.pobierzNazwa() + "\n");
+		Pizza pizza = w≈Çoska.zam√≥wPizza("serowa");
+		System.out.println("Eryk zam√≥wi≈Ç: " + pizza.pobierzNazwa() + "\n");
 		
-		pizza = amerykaÒska.zamÛwPizza("serowa");
-		System.out.println("Jacek zamÛwi≥: " + pizza.pobierzNazwa() + "\n");
+		pizza = ameryka≈Ñska.zam√≥wPizza("serowa");
+		System.out.println("Jacek zam√≥wi≈Ç: " + pizza.pobierzNazwa() + "\n");
 	}
 
 }

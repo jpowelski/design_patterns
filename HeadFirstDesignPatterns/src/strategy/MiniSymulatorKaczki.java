@@ -6,13 +6,13 @@ public class MiniSymulatorKaczki {
 		Kaczka dzika = new DzikaKaczka();
 		dzika.wykonajKwacz();
 		dzika.wykonajLot();
-		dzika.wyœwietl();
+		dzika.wyÅ›wietl();
 		
 		System.out.println();
 		
 		Kaczka model = new ModelKaczki();
 		model.wykonajLot();
-		model.setLatanie(new LotZNapêdemRakietowym());
+		model.setLatanie(new LotZNapÄ™demRakietowym());
 		model.wykonajLot();
 	}
 

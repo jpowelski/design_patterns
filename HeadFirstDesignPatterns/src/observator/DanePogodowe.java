@@ -6,8 +6,8 @@ public class DanePogodowe implements Podmiot {
 
 	private ArrayList<Obserwator> obserwatorzy;
 	private float temperatura;
-	private float wilgotnoœæ;
-	private float ciœnienie;
+	private float wilgotnoÅ›Ä‡;
+	private float ciÅ›nienie;
 
 	public DanePogodowe() {
 		this.obserwatorzy = new ArrayList<>();
@@ -19,7 +19,7 @@ public class DanePogodowe implements Podmiot {
 	}
 
 	@Override
-	public void usuñObserwatora(Obserwator o) {
+	public void usuÅ„Obserwatora(Obserwator o) {
 		int i = obserwatorzy.indexOf(o);
 		if (i > 0) {
 			obserwatorzy.remove(i);
@@ -27,20 +27,20 @@ public class DanePogodowe implements Podmiot {
 	}
 
 	@Override
-	public void powiadomObserwatorów() {
+	public void powiadomObserwatorÃ³w() {
 		for (Obserwator o : obserwatorzy) {
-			o.aktualizacja(temperatura, wilgotnoœæ, ciœnienie);
+			o.aktualizacja(temperatura, wilgotnoÅ›Ä‡, ciÅ›nienie);
 		}
 	}
 	
 	public void odczytZmiana(){
-		powiadomObserwatorów();
+		powiadomObserwatorÃ³w();
 	}
 	
-	public void ustawOdczyt(float temperatura, float wilgotnoœæ, float ciœnienie){
+	public void ustawOdczyt(float temperatura, float wilgotnoÅ›Ä‡, float ciÅ›nienie){
 		this.temperatura = temperatura;
-		this.wilgotnoœæ = wilgotnoœæ;
-		this.ciœnienie = ciœnienie;
+		this.wilgotnoÅ›Ä‡ = wilgotnoÅ›Ä‡;
+		this.ciÅ›nienie = ciÅ›nienie;
 		odczytZmiana();
 	}
 

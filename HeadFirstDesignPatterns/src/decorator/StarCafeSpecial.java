@@ -1,6 +1,6 @@
 package decorator;
 
-public class StarCafeSpecial extends Napój {
+public class StarCafeSpecial extends NapÃ³j {
 
 	public StarCafeSpecial(){
 		opis = "Kawa Star Cafe Special";

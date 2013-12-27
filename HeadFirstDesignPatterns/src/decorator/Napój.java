@@ -1,7 +1,7 @@
 package decorator;
 
-public abstract class Napój {
-	protected String opis = "Napój nieznany";
+public abstract class NapÃ³j {
+	protected String opis = "NapÃ³j nieznany";
 	
 	public String pobierzOpis(){
 		return opis;

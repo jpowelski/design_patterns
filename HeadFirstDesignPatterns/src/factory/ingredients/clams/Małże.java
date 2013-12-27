@@ -1,5 +1,5 @@
 package factory.ingredients.clams;
 
-public abstract class Ma≥øe {
+public abstract class Ma≈Ç≈ºe {
 
 }

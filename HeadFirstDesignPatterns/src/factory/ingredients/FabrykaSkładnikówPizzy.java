@@ -1,7 +1,7 @@
 package factory.ingredients;
 
 import factory.ingredients.cheese.Ser;
-import factory.ingredients.clams.Ma晨e;
+import factory.ingredients.clams.Ma艂偶e;
 import factory.ingredients.paste.Ciasto;
 import factory.ingredients.pepperoni.Pepperoni;
 import factory.ingredients.sauce.Sos;
@@ -10,23 +10,23 @@ import factory.ingredients.vegetables.Warzywa;
 /**
  * <b>Fabryka abstrakcyjna</b>
  * 
- * dostarcza interfejs do tworzenia ca硑ch rodzin spokrewnionych lub zale縩ych
- * od siebie obiekt體 bez konieczno渃i okre渓ania ich klas rzeczywistych
+ * dostarcza interfejs do tworzenia ca艂ych rodzin spokrewnionych lub zale膰nych
+ * od siebie obiekt贸w bez konieczno艣ci okre艣lania ich klas rzeczywistych
  * 
  * @author galica
  * 
  */
-public interface FabrykaSk砤dnik體Pizzy {
+public interface FabrykaSk艂adnik贸wPizzy {
 
-	public Ciasto utw髍zCiasto();
+	public Ciasto utw贸rzCiasto();
 
-	public Sos utw髍zSos();
+	public Sos utw贸rzSos();
 
-	public Ser utw髍zSer();
+	public Ser utw贸rzSer();
 
-	public Warzywa[] utw髍zWarzywa();
+	public Warzywa[] utw贸rzWarzywa();
 
-	public Pepperoni utw髍zPepperoni();
+	public Pepperoni utw贸rzPepperoni();
 
-	public Ma晨e utw髍zMa晨e();
+	public Ma艂偶e utw贸rzMa艂偶e();
 }

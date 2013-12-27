@@ -1,10 +1,10 @@
 package strategy;
 
-public class LotZNapêdemRakietowym implements ILatanie {
+public class LotZNapÄ™demRakietowym implements ILatanie {
 
 	@Override
-	public void leæ() {
-		System.out.println("Uuuuua. Lot z napêdem rakietowym!!!");
+	public void leÄ‡() {
+		System.out.println("Uuuuua. Lot z napÄ™dem rakietowym!!!");
 	}
 
 }

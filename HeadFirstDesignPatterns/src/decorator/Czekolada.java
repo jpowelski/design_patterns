@@ -1,21 +1,21 @@
 package decorator;
 
-public class Czekolada extends Sk砤dnikiDekorator {
+public class Czekolada extends Sk艂adnikiDekorator {
 
-	private Nap骿 nap骿;
+	private Nap贸j nap贸j;
 	
-	public Czekolada(Nap骿 nap骿) {
-		this.nap骿 = nap骿;
+	public Czekolada(Nap贸j nap贸j) {
+		this.nap贸j = nap贸j;
 	}
 
 	@Override
 	public String pobierzOpis() {
-		return nap骿.pobierzOpis() + ", Czekolada";
+		return nap贸j.pobierzOpis() + ", Czekolada";
 	}
 
 	@Override
 	public double koszt() {
-		return nap骿.koszt() + 0.20;
+		return nap贸j.koszt() + 0.20;
 	}
 
 }

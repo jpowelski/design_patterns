@@ -1,5 +1,5 @@
 package observator;
 
 public interface Obserwator {
-	public void aktualizacja(float temp, float wilgotnoœæ, float ciœnienie);
+	public void aktualizacja(float temp, float wilgotnoÅ›Ä‡, float ciÅ›nienie);
 }

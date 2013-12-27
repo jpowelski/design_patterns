@@ -1,5 +1,5 @@
 package factory.ingredients.vegetables;
 
-public class Bak≥aøan extends Warzywa {
+public class Bak≈Ça≈ºan extends Warzywa {
 
 }

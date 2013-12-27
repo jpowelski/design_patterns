@@ -1,9 +1,9 @@
 package strategy;
 
-public class LatamBoMamSkrzyd³a implements ILatanie {
+public class LatamBoMamSkrzydÅ‚a implements ILatanie {
 
 	@Override
-	public void leæ() {
+	public void leÄ‡() {
 		System.out.println("O rany. Latam!");
 	}
 

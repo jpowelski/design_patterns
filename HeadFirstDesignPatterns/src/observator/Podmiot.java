@@ -3,6 +3,6 @@ package observator;
 public interface Podmiot {
 
 	public void zarejestrujObserwatora(Obserwator o);
-	public void usuÒObserwatora(Obserwator o);
-	public void powiadomObserwatorÛw();
+	public void usu≈ÑObserwatora(Obserwator o);
+	public void powiadomObserwator√≥w();
 }

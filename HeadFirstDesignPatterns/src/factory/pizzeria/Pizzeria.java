@@ -3,21 +3,21 @@ package factory.pizzeria;
 import factory.pizza.Pizza;
 
 /**
- * <b>Metoda fabrykuj¹ca</b>
+ * <b>Metoda fabrykujÄ…ca</b>
  * 
- * definuje interfejs pozwalaj¹cy na tworzenie obiektów, ale pozwala klasom
- * podrzêdnym decydowaæ, jakiej klasy obiekt zostanie utworzony. Wzorzec Factory
- * Method przekazuje odpowiedzialnoœæ za tworzenie obiektów do klas podrzêdnych.
+ * definuje interfejs pozwalajÄ…cy na tworzenie obiektÃ³w, ale pozwala klasom
+ * podrzÄ™dnym decydowaÄ‡, jakiej klasy obiekt zostanie utworzony. Wzorzec Factory
+ * Method przekazuje odpowiedzialnoÅ›Ä‡ za tworzenie obiektÃ³w do klas podrzÄ™dnych.
  * 
  * @author galica
  * 
  */
 public abstract class Pizzeria {
 
-	public Pizza zamówPizza(String type) {
+	public Pizza zamÃ³wPizza(String type) {
 		Pizza pizza;
 
-		pizza = utwórzPizza(type);
+		pizza = utwÃ³rzPizza(type);
 
 		pizza.przygotowanie();
 		pizza.pieczenie();
@@ -27,6 +27,6 @@ public abstract class Pizzeria {
 		return pizza;
 	}
 
-	protected abstract Pizza utwórzPizza(String type);
+	protected abstract Pizza utwÃ³rzPizza(String type);
 
 }

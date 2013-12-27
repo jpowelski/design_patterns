@@ -1,4 +1,4 @@
-package factory;
+package factory.pizza;
 
 public class W³oskaSerowaPizza extends Pizza {
 

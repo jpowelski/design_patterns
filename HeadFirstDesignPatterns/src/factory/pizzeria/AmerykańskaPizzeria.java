@@ -1,4 +1,7 @@
-package factory;
+package factory.pizzeria;
+
+import factory.pizza.AmerykañskaSerowaPizza;
+import factory.pizza.Pizza;
 
 public class AmerykañskaPizzeria extends Pizzeria {
 

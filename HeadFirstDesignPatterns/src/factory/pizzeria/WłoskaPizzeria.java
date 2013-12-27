@@ -1,4 +1,7 @@
-package factory;
+package factory.pizzeria;
+
+import factory.pizza.Pizza;
+import factory.pizza.W³oskaSerowaPizza;
 
 public class W³oskaPizzeria extends Pizzeria {
 

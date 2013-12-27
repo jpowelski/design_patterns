@@ -1,4 +1,4 @@
-package factory;
+package factory.pizza;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ public abstract class Pizza {
 	protected String sos;
 	protected ArrayList<String> dodatki = new ArrayList<>();
 	
-	void przygotowanie() {
+	public void przygotowanie() {
 		System.out.println("Przygotowywanie: " + nazwa);
 		System.out.println("Wyrabianie ciasta...");
 		System.out.println("Dodawanie sosu...");
@@ -19,15 +19,15 @@ public abstract class Pizza {
 		}
 	}
 	
-	void pieczenie() {
+	public void pieczenie() {
 		System.out.println("Pieczenie: 25 minut w temp. 250 stopni C");
 	}
 	
-	void krojenie() {
+	public void krojenie() {
 		System.out.println("Krojenie pizzy na 8 kawa³ków");
 	}
 	
-	void pakowanie() {
+	public void pakowanie() {
 		System.out.println("Pakowanie pizzy w oficjalne pude³ko");
 	}
 	

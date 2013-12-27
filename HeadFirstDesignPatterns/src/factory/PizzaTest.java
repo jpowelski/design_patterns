@@ -1,5 +1,10 @@
 package factory;
 
+import factory.pizza.Pizza;
+import factory.pizzeria.AmerykañskaPizzeria;
+import factory.pizzeria.Pizzeria;
+import factory.pizzeria.W³oskaPizzeria;
+
 public class PizzaTest {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package factory;
+package factory.pizza;
 
 public class AmerykañskaSerowaPizza extends Pizza {
 
@@ -10,7 +10,7 @@ public class AmerykañskaSerowaPizza extends Pizza {
 		dodatki.add("Grubo tarty ser Mozzarella");
 	}
 	
-	void krojenie(){
+	public void krojenie(){
 		System.out.println("Krojenie pizzy na kwadratowe kawa³ki");
 	}
 }

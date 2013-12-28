@@ -18,4 +18,9 @@ public class PolecenieWłączCDWieżaStereo implements Polecenie {
 		wieża.ustawGłośność(13);
 	}
 
+	@Override
+	public void wycofaj() {
+		wieża.wyłącz();
+	}
+
 }

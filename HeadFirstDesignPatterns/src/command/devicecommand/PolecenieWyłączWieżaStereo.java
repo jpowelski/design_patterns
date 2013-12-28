@@ -16,4 +16,9 @@ public class PolecenieWyłączWieżaStereo implements Polecenie {
 		wieża.wyłącz();
 	}
 
+	@Override
+	public void wycofaj() {
+		wieża.włącz();
+	}
+
 }

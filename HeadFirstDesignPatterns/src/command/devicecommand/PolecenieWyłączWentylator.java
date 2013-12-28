@@ -16,4 +16,9 @@ public class PolecenieWyłączWentylator implements Polecenie {
 		wentylator.wyłącz();
 	}
 
+	@Override
+	public void wycofaj() {
+		wentylator.włącz();
+	}
+
 }

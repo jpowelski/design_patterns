@@ -16,4 +16,9 @@ public class PolecenieWłączŚwiatło implements Polecenie {
 		światło.włącz();
 	}
 
+	@Override
+	public void wycofaj() {
+		światło.wyłącz();
+	}
+
 }

@@ -16,4 +16,9 @@ public class PolecenieOtwórzDrzwiGarażowe implements Polecenie {
 		drzwiGarażowe.doGóry();
 	}
 
+	@Override
+	public void wycofaj() {
+		drzwiGarażowe.wDół();
+	}
+
 }

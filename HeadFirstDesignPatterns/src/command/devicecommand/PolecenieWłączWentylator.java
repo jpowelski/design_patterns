@@ -13,7 +13,7 @@ public class PolecenieWłączWentylator implements Polecenie {
 
 	@Override
 	public void wykonaj() {
-		wentylator.włącz();
+		wentylator.wysokieObroty();
 	}
 
 	@Override

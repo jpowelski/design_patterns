@@ -4,19 +4,19 @@ import command.Polecenie;
 import command.device.Wentylator;
 import command.device.Wentylator.PRĘDKOŚĆ;
 
-public class PolecenieWyłączWentylator implements Polecenie {
+public class PolecenieWentylatorWolno implements Polecenie {
 
 	private Wentylator wentylator;
 	private PRĘDKOŚĆ poprzedniaPrędkość;
 
-	public PolecenieWyłączWentylator(Wentylator wentylator) {
+	public PolecenieWentylatorWolno(Wentylator wentylator) {
 		this.wentylator = wentylator;
 	}
 
 	@Override
 	public void wykonaj() {
 		poprzedniaPrędkość = wentylator.pobierzPrędkość();
-		wentylator.wyłącz();
+		wentylator.niskieObroty();
 	}
 
 	@Override

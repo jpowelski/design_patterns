@@ -1,5 +1,14 @@
 package template_method.coffee_tea;
 
+/**
+ * <b>Wzorzec metoda szablonowa</b> definiuje szkielet danego algorytmu w określonej
+ * metodzie, przekazując realizację niektórych jego kroków do klas podrzednych.
+ * wzorzec ten pozwala klasom podrzędnym na redefiniowanie pewnych kroków
+ * algorytmu, ale jednocześnie uniemożliwia zmianę jego struktury.
+ * 
+ * @author galica
+ * 
+ */
 public abstract class NapójZKofeiną {
 
 	public final void recepturaParzenia() {

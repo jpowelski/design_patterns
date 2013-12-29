@@ -1,4 +1,4 @@
-package adapter_facade.enumeration_iterator;
+package adapter.enumeration_iterator;
 
 import java.util.Enumeration;
 import java.util.Iterator;

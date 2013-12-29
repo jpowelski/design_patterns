@@ -1,12 +1,9 @@
 package command;
 
 import command.device.Wentylator;
-import command.device.Światło;
 import command.devicecommand.PolecenieWentylatorSzybko;
 import command.devicecommand.PolecenieWentylatorWolno;
 import command.devicecommand.PolecenieWyłączWentylator;
-import command.devicecommand.PolecenieWyłączŚwiatło;
-import command.devicecommand.PolecenieWłączŚwiatło;
 
 public class ProgramowaniePilotaZWycofywaniem {
 	public static void main(String[] args) {

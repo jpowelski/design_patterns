@@ -1,4 +1,4 @@
-package adapter_facade.ducks;
+package adapter.ducks;
 
 public class IndykAdapter implements Kaczka {
 

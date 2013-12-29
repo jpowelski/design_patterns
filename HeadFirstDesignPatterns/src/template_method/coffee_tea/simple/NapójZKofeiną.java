@@ -1,4 +1,4 @@
-package template_method.coffee_tea;
+package template_method.coffee_tea.simple;
 
 /**
  * <b>Wzorzec metoda szablonowa</b> definiuje szkielet danego algorytmu w określonej

@@ -1,6 +1,6 @@
-package template_method.coffee_tea;
+package template_method.coffee_tea.extra;
 
-public class Herbata extends NapójZKofeiną {
+public class HerbataZHaczykiem extends NapójZKofeinąZHaczykiem {
 
 	@Override
 	protected void zaparzenie() {

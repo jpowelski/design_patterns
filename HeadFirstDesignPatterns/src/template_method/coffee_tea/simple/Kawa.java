@@ -1,4 +1,4 @@
-package template_method.coffee_tea;
+package template_method.coffee_tea.simple;
 
 public class Kawa extends NapójZKofeiną {
 

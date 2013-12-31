@@ -1,6 +1,8 @@
 package iterator;
 
-public class DinerMenu {
+import java.util.Iterator;
+
+public class DinerMenu implements Menu{
 
 	private final static int MAKS_LICZBA_ELEMENTÓW = 6;
 	int liczbaElementów = 0;
@@ -28,7 +30,7 @@ public class DinerMenu {
 		}
 	}
 	
-	public CustomIterator utwórzIterator(){
+	public Iterator utwórzIterator(){
 		return new DinerMenuIterator(pozycjeMenu);
 	}
 }

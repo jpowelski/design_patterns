@@ -1,30 +1,20 @@
 package iterator;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Kelnerka {
 
-	private Menu pancakeHouseMenu;
-	private Menu dinerMenu;
-	private UJackaMenu uJackaMenu;
+	private ArrayList<Menu> menu;
 
-	public Kelnerka(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu, UJackaMenu uJackaMenu) {
-		this.pancakeHouseMenu = pancakeHouseMenu;
-		this.dinerMenu = dinerMenu;
-		this.uJackaMenu = uJackaMenu;
+	public Kelnerka(ArrayList<Menu> menu) {
+		this.menu = menu;
 	}
 
 	public void drukujMenu() {
-		Iterator pancakeIterator = pancakeHouseMenu.utwórzIterator();
-		Iterator dinerIterator = dinerMenu.utwórzIterator();
-		Iterator uJackaIterator = uJackaMenu.utwórzIterator();
-
-		System.out.println("MENU\n----\nŚNIADANIA");
-		drukujMenu(pancakeIterator);
-		System.out.println("\nLUNCH");
-		drukujMenu(dinerIterator);
-		System.out.println("\nOBIADY");
-		drukujMenu(uJackaIterator);
+		for (Menu m : menu) {
+			drukujMenu(m.utwórzIterator());
+		}
 	}
 
 	private void drukujMenu(Iterator iterator) {

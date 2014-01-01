@@ -2,6 +2,22 @@ package iterator.composite;
 
 public abstract class MenuSkładnik {
 
+	protected String nazwa;
+	protected String opis;
+	
+	public MenuSkładnik(String nazwa, String opis) {
+		this.nazwa = nazwa;
+		this.opis = opis;
+	}
+
+	public String pobierzNazwa() {
+		return nazwa;
+	}
+
+	public String pobierzOpis() {
+		return opis;
+	}
+
 	public void dodaj(MenuSkładnik menuSkładnik) {
 		throw new UnsupportedOperationException();
 	}
@@ -11,14 +27,6 @@ public abstract class MenuSkładnik {
 	}
 
 	public MenuSkładnik pobierzPotomek(int i) {
-		throw new UnsupportedOperationException();
-	}
-
-	public String pobierzNazwa() {
-		throw new UnsupportedOperationException();
-	}
-
-	public String pobierzOpis() {
 		throw new UnsupportedOperationException();
 	}
 

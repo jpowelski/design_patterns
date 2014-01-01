@@ -2,26 +2,14 @@ package iterator.composite;
 
 public class PozycjaMenu extends MenuSkładnik {
 
-	private String nazwa;
-	private String opis;
 	private boolean wegetariańska;
 	private double cena;
 
 	public PozycjaMenu(String nazwa, String opis, boolean wegetariańska,
 			double cena) {
-		super();
-		this.nazwa = nazwa;
-		this.opis = opis;
+		super(nazwa, opis);
 		this.wegetariańska = wegetariańska;
 		this.cena = cena;
-	}
-
-	public String pobierzNazwa() {
-		return nazwa;
-	}
-
-	public String pobierzOpis() {
-		return opis;
 	}
 
 	public boolean jestWegetariańska() {

@@ -52,5 +52,7 @@ public class MenuTest {
 
 		Kelnerka kelnerka = new Kelnerka(menu);
 		kelnerka.drukujMenu();
+		
+		kelnerka.drukujMenuWegetariańskie();
 	}
 }

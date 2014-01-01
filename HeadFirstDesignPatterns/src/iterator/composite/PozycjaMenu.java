@@ -1,5 +1,7 @@
 package iterator.composite;
 
+import java.util.Iterator;
+
 public class PozycjaMenu extends MenuSkładnik {
 
 	private boolean wegetariańska;
@@ -28,5 +30,10 @@ public class PozycjaMenu extends MenuSkładnik {
 
 		System.out.println(", " + pobierzCena());
 		System.out.println("\t-- " + pobierzOpis());
+	}
+
+	@Override
+	public Iterator<MenuSkładnik> utwórzIterator() {
+		return new IteratorPusty();
 	}
 }

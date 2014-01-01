@@ -1,6 +1,7 @@
 package iterator.composite;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Menu extends MenuSkładnik {
 
@@ -30,5 +31,9 @@ public class Menu extends MenuSkładnik {
 		for(MenuSkładnik m : menuSkładniki){
 			m.drukuj();
 		}
+	}
+	
+	public Iterator<MenuSkładnik> utwórzIterator(){
+		return new IteratorKompozytu(menuSkładniki.iterator());
 	}
 }

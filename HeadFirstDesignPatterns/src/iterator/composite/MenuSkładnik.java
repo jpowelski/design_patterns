@@ -1,5 +1,7 @@
 package iterator.composite;
 
+import java.util.Iterator;
+
 public abstract class MenuSkładnik {
 
 	protected String nazwa;
@@ -41,4 +43,6 @@ public abstract class MenuSkładnik {
 	public void drukuj() {
 		throw new UnsupportedOperationException();
 	}
+	
+	public abstract Iterator<MenuSkładnik> utwórzIterator();
 }

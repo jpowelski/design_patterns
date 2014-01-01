@@ -5,6 +5,8 @@ import java.awt.Graphics;
 
 public class MójApplet extends Applet {
 
+	private static final long serialVersionUID = -5290032611684151460L;
+	
 	private String komunikat;
 	
 	public void init(){

@@ -6,6 +6,8 @@ import javax.swing.JFrame;
 
 public class MojaRamka extends JFrame {
 
+	private static final long serialVersionUID = 5317524554461354991L;
+
 	public MojaRamka(String title) {
 		super(title);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -6,7 +6,7 @@ public class DinerMenu implements Menu{
 
 	private final static int MAKS_LICZBA_ELEMENTÓW = 6;
 	int liczbaElementów = 0;
-	PozycjaMenu[] pozycjeMenu;
+	private PozycjaMenu[] pozycjeMenu;
 	
 	public DinerMenu(){
 		pozycjeMenu = new PozycjaMenu[MAKS_LICZBA_ELEMENTÓW];

@@ -25,6 +25,21 @@ public class Kelnerka {
 					m.drukuj();
 				}
 			} catch (UnsupportedOperationException e) {
+				/*
+				 * try-catch nie powinno realizować logiki programu.
+				 * Alternatywy:
+				 * 
+				 * - wykorzystać instanceof PozycjaMenu - wtedy jednak tracimy
+				 * przezroczystość!
+				 * 
+				 * - jestWegetariańska() może zwracać też domyślnie false, ale
+				 * wtedy tracimy informację, że klasa Menu nie obsługuje tej
+				 * logiki
+				 * 
+				 * Tak więc taka logika jest obecnie najlepsza, chyba że ktoś
+				 * zna lepsze rozwiązanie.
+				 */
+
 			}
 		}
 	}

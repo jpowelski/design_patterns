@@ -1,4 +1,4 @@
-package state;
+package state.v0;
 
 public class AutomatSprzedającyTest {
 	public static void main(String[] args) {

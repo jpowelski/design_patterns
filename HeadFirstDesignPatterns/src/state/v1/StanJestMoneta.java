@@ -1,8 +1,11 @@
 package state.v1;
 
+import java.util.Random;
+
 public class StanJestMoneta implements Stan {
 
 	private AutomatSprzedającyV1 automat;
+	private Random random = new Random(System.currentTimeMillis());
 
 	public StanJestMoneta(AutomatSprzedającyV1 automatSprzedającyV1) {
 		this.automat = automatSprzedającyV1;
@@ -22,7 +25,12 @@ public class StanJestMoneta implements Stan {
 	@Override
 	public void przekręćGałkę() {
 		System.out.println("Obróciłeś gałkę...");
-		automat.ustawStan(automat.pobierzStanGumaSprzedana());
+		int wygrana = random.nextInt(10);
+		if (wygrana == 0) {
+			automat.ustawStan(automat.pobierzStanWygrana());
+		} else {
+			automat.ustawStan(automat.pobierzStanGumaSprzedana());
+		}
 	}
 
 	@Override

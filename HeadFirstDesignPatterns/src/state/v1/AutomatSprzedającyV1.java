@@ -6,6 +6,7 @@ public class AutomatSprzedającyV1 {
 	private Stan stanNieMaMonety;
 	private Stan stanJestMoneta;
 	private Stan stanGumaSprzedana;
+	private Stan stanWygrana;
 
 	private Stan stan = stanBrakGum;
 	private int liczba = 0;
@@ -15,6 +16,7 @@ public class AutomatSprzedającyV1 {
 		stanNieMaMonety = new StanNieMaMonety(this);
 		stanJestMoneta = new StanJestMoneta(this);
 		stanGumaSprzedana = new StanGumaSprzedana(this);
+		stanWygrana = new StanWygrana(this);
 
 		this.liczba = liczba;
 		if (liczba > 0) {
@@ -39,12 +41,10 @@ public class AutomatSprzedającyV1 {
 		this.stan = stan;
 	}
 
-	public int pobierzLiczba(){
+	public int pobierzLiczba() {
 		return liczba;
 	}
-	
-	
-	
+
 	public Stan pobierzStanBrakGum() {
 		return stanBrakGum;
 	}
@@ -61,9 +61,13 @@ public class AutomatSprzedającyV1 {
 		return stanGumaSprzedana;
 	}
 
-	void zwolnijGume(){
+	public Stan pobierzStanWygrana() {
+		return stanWygrana;
+	}
+
+	void zwolnijGume() {
 		System.out.println("Wypada guma...");
-		if (liczba != 0){
+		if (liczba != 0) {
 			liczba--;
 		}
 	}

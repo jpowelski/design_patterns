@@ -1,7 +1,6 @@
 package proxy.helloworld;
 
 import java.rmi.Naming;
-import java.security.Permission;
 
 public class ZdalnyKlient {
 
